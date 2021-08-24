@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: url("rest.jpg") no-repeat top center black fixed;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    text-align: center;
+    color: #333;
+    text-rendering: optimizeLegibility;
+
+
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+#container
+{
+    width: 600px;
+    margin:0 auto;
+}
+.content-block
+{
+    background: white;
+    padding:20px;
+    margin:60px 0;
+}
+
+#content
+{
+    border: solid 10px black;
+}
+#reserve
+{
+    border: solid 10px palegreen;
+}
+#footer
+{
+    background: black;
+    color: white;
+}
+form
+{
+    text-align: left;
+    width:300px;
+    margin: 20px auto 0;
+}
+label{
+    display: block;
+    width: 290px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    background: #333;
+    color: white;
+}
+input{
+    display: block;
+    width: 290px;
+    padding: 5px;
+    margin: 0 0 10px;
+    border:dashed 4px violet;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-rendering: optimizeLegibility;
+}
+input[type="submit"]
+{
+    background: #333;
+    color: wheat;
+    cursor:pointer;
+    width:300px;
+}
